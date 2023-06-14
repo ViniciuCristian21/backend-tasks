@@ -4,7 +4,9 @@
   "description": "Projeto de aprendizado a fim de aprender mais sobre diversas tecnologias.",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "npx tsc"
   },
   "keywords": [],
   "author": "Viniciu Cristian",
