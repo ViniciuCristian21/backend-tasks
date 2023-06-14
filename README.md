@@ -21,20 +21,24 @@ npm run dev
 ```
 
 ```
-pegar todas tasks -> http://localhost/notes
-pegar uma task por id -> http://localhost/notes/:id
-excluir uma task -> http://localhost/remove/:id
-criar uma task -> http://localhost/create
+pegar todas tasks -> http://localhost:3333/notes
+pegar uma task por id -> http://localhost:3333/notes/:id
+excluir uma task -> http://localhost:3333/remove/:id
+criar uma task -> http://localhost:3333/create
 
 {
     "title": "",
     "description": ""
 }
 
-atualizar uma task -> http://localhost/update/:id
+atualizar uma task -> http://localhost:3333/update/:id
 
 {
     "id": "",
     "title": "",
     "description": ""
 }
+
+filtrar um tasks -> http://localhost:3333/filter/:id
+
+```
